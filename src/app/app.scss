@@ -1,0 +1,45 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+
+//this code changes the nav pane toolbar image.
+.toolbar-background {
+  background-image: url('../assets/imgs/imgs/Adoption.framer/imported/UI - SaveBarkley2@1x/images/Agrupar_1.png');
+  background-size: 370px;
+}
+
+
+
+ //changes the menu icon to white
+  ion-icon {
+    color: map_get($colors, white) !important;
+  }
+
+ //this changes background color for the side bar items
+ion-menu {
+  ion-content, button {
+    background-color: map_get($colors, primary) !important;
+  }
+}
+
+//this class tells how big the images will be
+.div-img1 {
+  height: 60px;
+  width: 50px;
+}
+

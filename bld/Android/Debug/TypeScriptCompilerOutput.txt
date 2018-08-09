@@ -1,0 +1,10 @@
+C:\Users\vinni10v\Ionic\sbapp\src\pages\list\list.js
+C:\Users\vinni10v\Ionic\sbapp\src\pages\list\list.js.map
+C:\Users\vinni10v\Ionic\sbapp\src\pages\home\home.js
+C:\Users\vinni10v\Ionic\sbapp\src\pages\home\home.js.map
+C:\Users\vinni10v\Ionic\sbapp\src\app\app.component.js
+C:\Users\vinni10v\Ionic\sbapp\src\app\app.component.js.map
+C:\Users\vinni10v\Ionic\sbapp\src\app\app.module.js
+C:\Users\vinni10v\Ionic\sbapp\src\app\app.module.js.map
+C:\Users\vinni10v\Ionic\sbapp\src\app\main.js
+C:\Users\vinni10v\Ionic\sbapp\src\app\main.js.map
