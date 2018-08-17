@@ -20,7 +20,8 @@
 //this code changes the nav pane toolbar image.
 .toolbar-background {
   background-image: url('../assets/imgs/imgs/Adoption.framer/imported/UI - SaveBarkley2@1x/images/Agrupar_1.png');
-  background-size: 370px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 
@@ -39,7 +40,47 @@ ion-menu {
 
 //this class tells how big the images will be
 .div-img1 {
-  height: 60px;
-  width: 50px;
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
+.div-profileimg {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+h6{
+  font-size:3vw;
+  text-align:center;
+
+}
+
+h5{
+  font-size:5vw;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+p{
+  font-size:3vw;
+}
+
+
+h3{
+  font-size:4vw;
+}
+
+span{
+  font-weight:normal;
+  font-size:3.5vw;
+}
