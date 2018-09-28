@@ -19,28 +19,23 @@
 
 //this code changes the nav pane toolbar image.
 .toolbar-background {
-  background-image: url('../assets/imgs/imgs/Adoption.framer/imported/UI - SaveBarkley2@1x/images/Agrupar_1.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color:#2DB9BF;
 }
 
+//changes the menu icon to white
+ion-icon {
+  color: map_get($colors, white) !important;
+}
 
-
- //changes the menu icon to white
-  ion-icon {
-    color: map_get($colors, white) !important;
-  }
-
- //this changes background color for the side bar items
+//this changes background color for the side bar items
 ion-menu {
   ion-content, button {
-    background-color: map_get($colors, primary) !important;
+  background-color: map_get($colors, primary) !important;
   }
 }
 
 //this class tells how big the images will be
 .div-img1 {
-  
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: auto;
@@ -50,39 +45,36 @@ ion-menu {
 
 .div-profileimg {
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  width:170px;
+  height:170px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  
+  border-radius: 100px;
+  border:10px solid;
+  border-color: rgba(45, 185, 191, .3);
 }
 
 h6{
-  font-size:3vw;
+  font-size:12px;
   text-align:center;
-
 }
 
 h5{
-  font-size:5vw;
+  font-size:20px;
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 5px;
 }
 
 p{
-  font-size:3vw;
-}
-
-
-h3{
-  font-size:4vw;
+  font-size:10px;
 }
 
 span{
-  font-weight:normal;
-  font-size:3.5vw;
+  font-weight:400;
+  font-size:15px;
 }
 
 .thumbnail{
@@ -91,4 +83,14 @@ span{
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.profile{
+  padding-top:15px;
+}
+
+.nav-header{
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 50px;
 }
